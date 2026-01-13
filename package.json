@@ -1,6 +1,6 @@
 {
   "name": "zvid",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "module": "./dist/index.mjs",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
