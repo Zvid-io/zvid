@@ -1,0 +1,158 @@
+{
+  "name": "video",
+  "resolution": "youtube-video",
+  "duration": 60,
+  "backgroundColor": "#0b0d17",
+  "visuals": [
+    {
+      "type": "VIDEO",
+      "src": "https://cdn.pixabay.com/video/2025/03/12/264272_large.mp4",
+      "id": "bg1",
+      "width": 1920,
+      "height": 1080,
+      "position": "center-center",
+      "videoBegin": 2.8,
+      "videoEnd": 14.8,
+      "videoDuration": 25,
+      "volume": 0.25,
+      "exitBegin": 10.5,
+      "exitEnd": 12,
+      "transition": "fade",
+      "transitionDuration": 1.6,
+      "transitionId": "bg2"
+    },
+    {
+      "type": "VIDEO",
+      "src": "https://cdn.pixabay.com/video/2025/06/09/284566_large.mp4",
+      "id": "bg2",
+      "width": 1920,
+      "height": 1080,
+      "position": "center-center",
+      "enterBegin": 12,
+      "enterEnd": 12.9,
+      "exitBegin": 22.6,
+      "exitEnd": 24,
+      "transition": "wipeleft",
+      "transitionDuration": 1.2,
+      "transitionId": "bg3"
+    },
+    {
+      "type": "VIDEO",
+      "src": "https://cdn.pixabay.com/video/2025/05/01/275983_large.mp4",
+      "id": "bg3",
+      "width": 1920,
+      "height": 1080,
+      "position": "center-center",
+      "cropParams": {
+        "x": 180,
+        "y": 0,
+        "width": 1560,
+        "height": 1080
+      },
+      "enterBegin": 24,
+      "enterEnd": 24.8,
+      "exitBegin": 34.7,
+      "exitEnd": 36,
+      "transition": "circlecrop",
+      "transitionDuration": 1.3,
+      "transitionId": "bg4"
+    },
+    {
+      "type": "VIDEO",
+      "src": "https://cdn.pixabay.com/video/2025/06/03/283533_large.mp4",
+      "id": "bg4",
+      "width": 1920,
+      "height": 1080,
+      "position": "center-center",
+      "enterBegin": 36,
+      "enterEnd": 36.7,
+      "exitBegin": 46.5,
+      "exitEnd": 48,
+      "transition": "pixelize",
+      "transitionDuration": 1.1,
+      "transitionId": "bg5"
+    },
+    {
+      "type": "VIDEO",
+      "src": "https://cdn.pixabay.com/video/2025/08/20/298643_large.mp4",
+      "id": "bg5",
+      "width": 1920,
+      "height": 1080,
+      "position": "center-center",
+      "resize": "cover",
+      "enterBegin": 48,
+      "enterEnd": 48.8,
+      "exitBegin": 59,
+      "exitEnd": 60
+    },
+
+    {
+      "type": "VIDEO",
+      "src": "https://cdn.pixabay.com/video/2025/05/01/275983_large.mp4",
+      "width": 560,
+      "height": 315,
+      "position": "bottom-right",
+      "track": 10,
+      "opacity": 0.9,
+      "angle": 6,
+      "flipH": true,
+      "enterBegin": 4.2,
+      "enterEnd": 5,
+      "enterAnimation": "slideright",
+      "exitBegin": 16.2,
+      "exitEnd": 17,
+      "exitAnimation": "slideleft"
+    },
+    {
+      "type": "VIDEO",
+      "src": "https://cdn.pixabay.com/video/2021/07/22/82431-580137651_large.mp4",
+      "x": 80,
+      "y": 140,
+      "width": 900,
+      "height": 900,
+      "track": 12,
+      "opacity": 0.95,
+      "chromaKey": {
+        "color": "#00D800",
+        "similarity": 10,
+        "blend": 20
+      },
+      "enterBegin": 7,
+      "enterEnd": 8,
+      "enterAnimation": "smoothdown",
+      "exitBegin": 17,
+      "exitEnd": 18,
+      "exitAnimation": "smoothup"
+    },
+    {
+      "type": "VIDEO",
+      "src": "https://cdn.pixabay.com/video/2025/08/12/296958_large.mp4",
+      "resize": "contain",
+      "track": 11,
+      "flipV": true,
+      "enterBegin": 20.5,
+      "enterEnd": 21.2,
+      "exitBegin": 31.2,
+      "exitEnd": 32,
+      "filter": {
+        "brightness": 50
+      }
+    },
+    {
+      "type": "VIDEO",
+      "src": "https://cdn.pixabay.com/video/2025/06/03/283533_large.mp4",
+      "width": 540,
+      "height": 304,
+      "position": "center-center",
+      "anchor": "top-left",
+      "zoom": true,
+      "track": 14,
+      "opacity": 0.8,
+      "speed": 2,
+      "enterBegin": 50,
+      "enterEnd": 50.6,
+      "exitBegin": 57.5,
+      "exitEnd": 58
+    }
+  ]
+}

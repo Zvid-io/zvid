@@ -1,0 +1,17 @@
+/src
+/node_modules
+/assets
+/examples
+/output
+Dockerfile
+.dockerignore
+convertInput.js
+input.json
+old-input-structure.json
+docs/**
+
+.env
+.DS_Store
+
+tsconfig.json
+tsup.config.ts

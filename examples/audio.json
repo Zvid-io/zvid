@@ -1,0 +1,22 @@
+{
+  "name": "audio",
+  "resolution": "youtube-short",
+  "duration": 60,
+  "backgroundColor": "#0b0d17",
+  "audios": [
+    {
+      "src": "https://cdn.zvid.io/example2.mp3",
+      "volume": 0.22,
+      "enter": 0,
+      "exit": 30,
+      "audioBegin": 5,
+      "audioEnd": 15
+    },
+    {
+      "src": "https://cdn.zvid.io/example2.mp3",
+      "speed": 2,
+      "enter": 30,
+      "exit": 60
+    }
+  ]
+}

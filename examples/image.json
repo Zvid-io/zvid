@@ -1,0 +1,288 @@
+{
+  "name": "image",
+  "resolution": "instagram-story",
+  "duration": 60,
+  "backgroundColor": "#0b0d17",
+  "visuals": [
+    {
+      "type": "IMAGE",
+      "src": "https://cdn.pixabay.com/photo/2022/08/16/05/50/straw-bales-7389396_1280.jpg",
+      "width": 1080,
+      "height": 1920,
+      "position": "center-center",
+      "resize": "cover",
+      "enterBegin": 0,
+      "enterEnd": 0.8,
+      "exitBegin": 9.2,
+      "exitEnd": 10,
+      "enterAnimation": "fade",
+      "exitAnimation": "fade",
+      "filter": {
+        "brightness": 0.75
+      }
+    },
+    {
+      "type": "IMAGE",
+      "src": "https://cdn.pixabay.com/photo/2022/11/05/22/11/channel-7572879_1280.jpg",
+      "width": 260,
+      "height": 260,
+      "track": 6,
+      "opacity": 0.88,
+      "angle": -8,
+      "flipH": true,
+      "radius": { "tl": 26, "tr": 26, "bl": 26, "br": 26 },
+      "enterBegin": 0.2,
+      "enterEnd": 1.2,
+      "exitBegin": 8.8,
+      "exitEnd": 10,
+      "enterAnimation": "slideright",
+      "exitAnimation": "fade",
+      "zoom": true
+    },
+    {
+      "type": "IMAGE",
+      "src": "https://cdn.pixabay.com/photo/2023/06/04/20/21/cat-8040862_1280.jpg",
+      "x": 120,
+      "y": 1120,
+      "width": 420,
+      "height": 560,
+      "track": 5,
+      "opacity": 0.92,
+      "angle": 7,
+      "radius": { "tl": 22, "tr": 10, "bl": 34, "br": 16 },
+      "enterBegin": 0.6,
+      "enterEnd": 1.6,
+      "exitBegin": 9,
+      "exitEnd": 10,
+      "enterAnimation": "slideup",
+      "exitAnimation": "slidedown"
+    },
+
+    {
+      "type": "IMAGE",
+      "src": "https://cdn.pixabay.com/photo/2024/10/02/18/24/leaf-9091894_1280.jpg",
+      "width": 1080,
+      "height": 1920,
+      "position": "center-center",
+      "track": 0,
+      "enterBegin": 10,
+      "enterEnd": 11,
+      "exitBegin": 19,
+      "exitEnd": 20,
+      "enterAnimation": "fade",
+      "exitAnimation": "fade",
+      "filter": {
+        "contrast": 1.05
+      }
+    },
+    {
+      "type": "IMAGE",
+      "src": "https://cdn.pixabay.com/photo/2025/07/12/12/54/scarlet-robin-9710532_960_720.jpg",
+      "x": 80,
+      "y": 260,
+      "width": 420,
+      "height": 520,
+      "track": 4,
+      "radius": { "tl": 24, "tr": 24, "bl": 24, "br": 24 },
+      "enterBegin": 10.2,
+      "enterEnd": 11.2,
+      "exitBegin": 18.8,
+      "exitEnd": 20,
+      "enterAnimation": "slideleft",
+      "exitAnimation": "fade"
+    },
+    {
+      "type": "IMAGE",
+      "src": "https://cdn.pixabay.com/photo/2022/11/05/22/11/channel-7572879_1280.jpg",
+      "x": 560,
+      "y": 360,
+      "width": 440,
+      "height": 440,
+      "track": 5,
+      "opacity": 0.82,
+      "flipV": true,
+      "angle": -6,
+      "anchor": "center-center",
+      "enterBegin": 10.6,
+      "enterEnd": 11.6,
+      "exitBegin": 18.7,
+      "exitEnd": 20,
+      "enterAnimation": "slideup",
+      "exitAnimation": "slidedown"
+    },
+    {
+      "type": "IMAGE",
+      "src": "https://cdn.pixabay.com/photo/2023/06/04/20/21/cat-8040862_1280.jpg",
+      "width": 380,
+      "height": 260,
+      "position": "bottom-center",
+      "track": 6,
+      "opacity": 0.9,
+      "radius": { "tl": 18, "tr": 18, "bl": 18, "br": 18 },
+      "enterBegin": 11,
+      "enterEnd": 12,
+      "exitBegin": 18.5,
+      "exitEnd": 20,
+      "enterAnimation": "fade",
+      "exitAnimation": "fade",
+      "filter": {
+        "saturate": 0.8
+      }
+    },
+
+    {
+      "type": "IMAGE",
+      "src": "https://cdn.pixabay.com/photo/2022/08/16/05/50/straw-bales-7389396_1280.jpg",
+      "width": 1080,
+      "height": 1920,
+      "position": "center-center",
+      "enterBegin": 20,
+      "enterEnd": 21,
+      "exitBegin": 29,
+      "exitEnd": 30,
+      "enterAnimation": "fade",
+      "exitAnimation": "fade"
+    },
+    {
+      "type": "IMAGE",
+      "src": "https://cdn.pixabay.com/photo/2023/06/04/20/21/cat-8040862_1280.jpg",
+      "width": 860,
+      "height": 560,
+      "position": "center-center",
+      "track": 5,
+      "radius": { "tl": 30, "tr": 30, "bl": 30, "br": 30 },
+      "cropParams": { "x": 140, "y": 40, "width": 880, "height": 640 },
+      "enterBegin": 20.3,
+      "enterEnd": 21.4,
+      "exitBegin": 28.6,
+      "exitEnd": 30,
+      "enterAnimation": "fade",
+      "exitAnimation": "fade"
+    },
+
+    {
+      "type": "IMAGE",
+      "src": "https://cdn.pixabay.com/photo/2024/10/02/18/24/leaf-9091894_1280.jpg",
+      "width": 1080,
+      "height": 1920,
+      "position": "center-center",
+      "enterBegin": 30,
+      "enterEnd": 31,
+      "exitBegin": 39,
+      "exitEnd": 40,
+      "enterAnimation": "fade",
+      "exitAnimation": "fade"
+    },
+    {
+      "type": "IMAGE",
+      "src": "https://cdn.pixabay.com/photo/2022/08/16/05/50/straw-bales-7389396_1280.jpg",
+      "width": 480,
+      "height": 720,
+      "position": "center-left",
+      "resize": "contain",
+      "track": 5,
+      "radius": { "tl": 26, "tr": 26, "bl": 26, "br": 26 },
+      "enterBegin": 30.5,
+      "enterEnd": 31.5,
+      "exitBegin": 38.8,
+      "exitEnd": 40,
+      "enterAnimation": "slideleft",
+      "exitAnimation": "fade"
+    },
+    {
+      "type": "IMAGE",
+      "src": "https://cdn.pixabay.com/photo/2022/08/16/05/50/straw-bales-7389396_1280.jpg",
+      "width": 480,
+      "height": 720,
+      "position": "center-right",
+      "track": 5,
+      "radius": { "tl": 26, "tr": 26, "bl": 26, "br": 26 },
+      "enterBegin": 30.8,
+      "enterEnd": 31.8,
+      "exitBegin": 38.8,
+      "exitEnd": 40,
+      "enterAnimation": "slideright",
+      "exitAnimation": "fade",
+      "filter": {
+        "invert": true
+      }
+    },
+
+    {
+      "type": "IMAGE",
+      "src": "https://cdn.pixabay.com/photo/2022/11/05/22/11/channel-7572879_1280.jpg",
+      "width": 1080,
+      "height": 1920,
+      "position": "center-center",
+      "enterBegin": 40,
+      "enterEnd": 41,
+      "exitBegin": 49,
+      "exitEnd": 50,
+      "enterAnimation": "fade",
+      "exitAnimation": "fade",
+      "filter": {
+        "colorTint": "#ff0000"
+      }
+    },
+    {
+      "type": "IMAGE",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Green_Screen_Computer.png?download=1",
+      "width": 820,
+      "height": 520,
+      "position": "center-center",
+      "track": 7,
+      "angle": -4,
+      "radius": { "tl": 28, "tr": 28, "bl": 28, "br": 28 },
+      "chromaKey": {
+        "color": "#00ff00",
+        "similarity": 30,
+        "blend": 0.15
+      },
+      "enterBegin": 40.4,
+      "enterEnd": 41.6,
+      "exitBegin": 48.7,
+      "exitEnd": 50,
+      "enterAnimation": "fade",
+      "exitAnimation": "fade"
+    },
+
+    {
+      "type": "IMAGE",
+      "src": "https://cdn.pixabay.com/photo/2023/06/04/20/21/cat-8040862_1280.jpg",
+      "width": 1080,
+      "height": 1920,
+      "position": "center-center",
+      "enterBegin": 50,
+      "enterEnd": 51,
+      "exitBegin": 59,
+      "exitEnd": 60,
+      "enterAnimation": "fade",
+      "exitAnimation": "fade",
+      "filter": {
+        "hue-rotate": "40deg"
+      }
+    },
+    {
+      "type": "IMAGE",
+      "src": "https://cdn.pixabay.com/photo/2025/07/12/12/54/scarlet-robin-9710532_960_720.jpg",
+      "x": 120,
+      "y": 260,
+      "width": 520,
+      "height": 780,
+      "track": 6,
+      "opacity": 0.86,
+      "angle": 18,
+      "flipH": true,
+      "radius": { "tl": 34, "tr": 10, "bl": 10, "br": 34 },
+      "enterBegin": 50.6,
+      "enterEnd": 51.8,
+      "exitBegin": 58.8,
+      "exitEnd": 60,
+      "enterAnimation": "slideup",
+      "exitAnimation": "slidedown",
+      "filter": {
+        "blur": "1.6px"
+      }
+    }
+  ]
+}
