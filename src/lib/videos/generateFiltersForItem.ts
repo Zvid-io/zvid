@@ -176,7 +176,10 @@ export default function generateFilterForItem(
   if (
     'zoom' in elemData &&
     elemData.zoom &&
-    (checkIsImage(elemData) || checkIsVideo(elemData) || checkIsGif(elemData))
+    (checkIsImage(elemData) ||
+      checkIsVideo(elemData) ||
+      checkIsGif(elemData) ||
+      checkIsSvg(elemData))
   ) {
     const { filters: zoomFilters, output } = getZoomFilter(
       elemData,
