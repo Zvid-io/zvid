@@ -1,4 +1,5 @@
 import path from 'path';
+import { promises as fs } from 'fs';
 import { Project } from './types/items.type';
 import configInstance from './lib/config/config';
 import PuppeteerManager from './utils/puppeteerManager';
@@ -127,6 +128,8 @@ export default function renderVideo(
     const outputFileName = `${defaults.name}.${validatedFormat}`;
     const outputPath = path.join(outputFolder, outputFileName);
 
+    await fs.mkdir(path.dirname(outputPath), { recursive: true });
+
     const filterScript = new FilterComplexScript();
 
     try {
@@ -137,7 +140,6 @@ export default function renderVideo(
       filterScript.cleanup();
       throw e;
     }
-
     return runFfmpeg<RenderVideoResult>({
       command: ffmpegCommand,
       outputPath,
